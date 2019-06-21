@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQfDtFLzlY6d8SfMdxY+aEJjANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRjN2RmOTMwOC0yY2FiLTRlYWUtOWJjYy05M2I4NTQ4NzJmMmQw
+    HhcNMTkwNjIxMDQ1ODIwWhcNMjQwNjE5MDU1ODIwWjAvMS0wKwYDVQQDEyRjN2Rm
+    OTMwOC0yY2FiLTRlYWUtOWJjYy05M2I4NTQ4NzJmMmQwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCro8Ikk31ADBOPCnW7OBm9Jd2oTvsxjif9fMHLg1Yg
+    lvcTGQVFWYoaqPW7KRfmG30e+oNZt5mzgz6Ua0nr4JzbQee198Q9FwVuYyl/CVbF
+    zHY/koRIwSDKZYdhEVbRYZMQbBqPOshBDqayYbsogZRd4W4AQQSUduIJmNwONAAI
+    6j46kKIpt+6bX/nHhVST/fV5l+qc1ZUDWYllAebdykXlVj5UjNl2YWH+14eEAV4W
+    ssVXrkZQw4O0Imap1qwbD7DvfplBZrN8u97Ol27bxcvxmyJHkb0tqarfJRnAZNCW
+    1jFyJuTBMYNh8U9LeRYZbrUZECCyoB8LzjEmMxHNl6HnAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBu
+    A7qP+aDrrcLA09tziA1vp1OhDZkvVoPeoohtuXEECdkKzfjCu5vNqmZKsWNPbFKV
+    6bt4fBn9ohb4UaX5isXzWy7+9Qz//LkcUwfspEp9S+H52j0+HWJfug5d8NjZYd/c
+    5+B+TZXR13zqBLZ8GSZEIyHuRE+IT9X4LawJqHfpC039UHntwAXRXb0zX7T2y2EI
+    bGdA3ajqR6pPbsLTk54psQ/T+q4LnWT3LPuRG0WkyYAsn5zZ4/jlZvPQkKrkrUA1
+    XSNk8GKQ+zB/jPhIjCN2vyblSh3sFbRL9oer85HzAVTdCvS1e3EDUVevLTMZVH5r
+    A5h1fi8JU5Su2KRL3HHj
+    -----END CERTIFICATE-----
+  clusterName: jenkinsx-trial
+  jx-install-version: 2.0.311
+  kubeProvider: gke
+  projectID: k8s-practice-222609
+  region: ""
+  secretsLocation: vault
+  server: https://35.189.30.193
+  systemVaultName: jx-vault-jenkinsx-tria
+  zone: australia-southeast1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
